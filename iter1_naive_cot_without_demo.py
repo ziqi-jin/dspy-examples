@@ -8,6 +8,7 @@ if __name__ == '__main__':
     lm = dspy.OllamaLocal(model=model_name)
     dspy.settings.configure(lm=lm)
 
+    #  定义输入输出参数 inline定义方式
     print(f"## 创建并设置大模型 {model_name} ##")
     print(f"\n## inline方式 定义输入输出参数 - start ##\n")
 
