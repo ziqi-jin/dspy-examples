@@ -25,7 +25,7 @@ Example({'question': '1+1=?', 'answer': '2'}) (input_keys={'question'}),
 Example({'question': '1+5=?', 'answer': '6'}) (input_keys={'question'}),
 Example({'question': '3+3=?', 'answer': '6'}) (input_keys={'question'}),
 Example({'question': '5*5=?', 'answer': '25'}) (input_keys={'question'}),
-Example({'question': '2+8=?', 'answer': '10'}) (input_keys={'question'}),
+Example({'question': '6+6=?', 'answer': '12'}) (input_keys={'question'}),
 """
 
 custom_testset_content="""
@@ -33,7 +33,7 @@ Example({'question': '1+1+5=?', 'answer': '7'}) (input_keys={'question'}),
 Example({'question': '1+5+5=?', 'answer': '11'}) (input_keys={'question'}),
 Example({'question': '3+3+5=?', 'answer': '11'}) (input_keys={'question'}),
 Example({'question': '5*5+5=?', 'answer': '30'}) (input_keys={'question'}),
-Example({'question': '2+8+5=?', 'answer': '15'}) (input_keys={'question'}),
+Example({'question': '6+6+5=?', 'answer': '17'}) (input_keys={'question'}),
 """
 
 import ast
